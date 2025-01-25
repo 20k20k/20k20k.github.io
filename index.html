@@ -1,1 +1,78 @@
-<p>test</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="20k20k.org - A unique Minecraft anarchy server with a 20,000 x 20,000 map size">
+    <title>20k20k.org | Minecraft Anarchy Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </div>
+        </nav>
+        <main>
+            <div class="hero">
+                <img src="logo-transparent.png" alt="20k20k.org Logo" class="hero-logo">
+                <h1>20k20k.org</h1>
+                <p class="tagline">An anarchy server on 1.21.3 with a 20,000 x 20,000 map size. No resets, no map expansion, ever.</p>
+                <div class="button-group">
+                    <button class="primary-button">Play Now</button>
+                    <button class="secondary-button">How to Play</button>
+                </div>
+            </div>
+            <div class="server-description">
+            </div>
+        </main>
+    </div>
+
+    <!-- How to Play Modal -->
+    <div class="modal" id="howToPlayModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>How to Connect</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="connection-steps">
+                    <div class="step">
+                        <h3>1. Open Minecraft Java Edition</h3>
+                        <p>Launch Minecraft Java Edition version 1.9+</p>
+                    </div>
+                    <div class="step">
+                        <h3>2. Go to Multiplayer</h3>
+                        <p>Click 'Multiplayer' from the main menu</p>
+                    </div>
+                    <div class="step">
+                        <h3>3. Add Server</h3>
+                        <p>Click 'Add Server' and enter these details:</p>
+                        <div class="server-details">
+                            <div class="detail-row">
+                                <span class="label">Server Name:</span>
+                                <span class="value">20k20k</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Server Address:</span>
+                                <span class="value highlight">20k20k.org</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <h3>4. Join Server</h3>
+                        <p>Click 'Done', select the server, and click 'Join Server'</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
